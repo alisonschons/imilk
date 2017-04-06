@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alisonschons.imilk30.login">
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="153dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/senha"
+        android:layout_alignStart="@+id/senha"
+        android:layout_marginTop="158dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_user"
+        android:layout_alignBottom="@+id/usuario"
+        android:layout_toLeftOf="@+id/usuario"
+        android:layout_toStartOf="@+id/usuario" />
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="233dp"
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/usuario"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_key"
+        android:layout_alignBottom="@+id/senha"
+        android:layout_toLeftOf="@+id/senha"
+        android:layout_toStartOf="@+id/senha" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Acessar"
+        android:layout_below="@+id/senha"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iMILK"
+        android:textColor="#000000"
+        android:layout_margin="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"/>
+</RelativeLayout>
